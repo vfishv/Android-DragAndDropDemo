@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
     fun initdata() {
         var ckcode = 1000
-        for (i in 1..9) {
+        for (i in 1..900) {
             val item = CDrugs()
             if (i % 3 == 0) {
                 item.drugs_ckcode = ckcode + 3
